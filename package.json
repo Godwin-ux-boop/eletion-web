@@ -4,8 +4,9 @@
   "description": "uplaod new voters",
   "main": "index.js",
   "scripts": {
+    "start": "node upload.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon upload.js"
+    "dev": "nodemon upload.js"
   },
   "author": "",
   "license": "ISC",
